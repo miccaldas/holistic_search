@@ -14,7 +14,7 @@ def type_watch(source, value):
 snoop.install(watch_extras=[type_watch])
 
 
-@snoop
+# @snoop
 def main():
     """
     We'll ask the user for a query term and feed it to 'Search class'.
